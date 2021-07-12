@@ -15,14 +15,7 @@ function App() {
   // phoneNumber: null,
   // photoUrl:
   //   "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/NYCS-bull-trans-S-Std.svg/1200px-NYCS-bull-trans-S-Std.svg.png",
-  const [user, setUser] = useState({
-  displayName: "satinder",
-  email: "ssatinder1996@gmail.com",
-  emailVerified: "true",
-  phoneNumber: null,
-  photoUrl:
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/NYCS-bull-trans-S-Std.svg/1200px-NYCS-bull-trans-S-Std.svg.png",
-  });
+  const [user, setUser] = useState("");
   const handleLogin = () => {
     if (!user) {
       auth.signInWithPopup(provider).then((result) => {
@@ -42,7 +35,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className='app__login'>
+        <div className="app__login">
           <img src={googleDriveLogo} width="200px" height="200px"></img>
           <button onClick={handleLogin}>Login</button>
         </div>
