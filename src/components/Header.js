@@ -29,15 +29,15 @@ function Header({ userPhoto }) {
         <span>Drive</span>
       </div>
       <div className="header_searchContainer">
-        <div className="header_searchBar">
-          <SearchIcon />
-          <input disabled type="text" placeholder="Search" ></input>
+        {/* <div className="header_searchBar"> */}
+          {/* <SearchIcon /> */}
+          {/* <input disabled type="text" placeholder="Search" ></input> */}
           
-        </div>
+        {/* </div> */}
       </div>
 
       <div className="header_icons"></div>
-      <img src={userPhoto} alt="User"></img>
+      {/* <img src={userPhoto} alt="User"></img> */}
       
     </div>
   );

@@ -1,8 +1,8 @@
 .newFile {
     display: flex;
     align-items: center;
-    padding: 12px 0;
-    padding-left: 20px;
+    padding: 2px 0;
+    padding-left: 0px;
 }
 
 .newFile__container {
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     /* TRouBLe */
-    padding: 6px 32px 6px 8px;
+    padding: 3px;
     border-radius: 50px;
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
     cursor: pointer;
@@ -28,6 +28,7 @@
     height: 250px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .fileView__titles{

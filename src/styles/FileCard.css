@@ -1,9 +1,11 @@
 .fileCard {
     height: 190px;
-    width: 240px;
+    width: 140px;
     border-radius: 10px;
     border: 1px solid rgb(219, 219, 219);
     margin: 5px;
+    margin-top: 50px;
+    
 }
 
 .fileCard--top {
@@ -20,10 +22,16 @@
     justify-content: center;
     width: 100%;
     height: 30%;
+    
 }
 
 .fileCard--bottom>p {
     width: 90%;
     overflow: hidden;
     white-space: nowrap;
+}
+.fileCard>a{
+    
+    text-decoration: none;
+    color: rgb(85, 78, 78);
 }

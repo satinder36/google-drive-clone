@@ -20,7 +20,7 @@ function FilesView() {
   return (
     <div className="fileView">
       <div className="fileView__row">
-        {files.slice(0, 5).map(({ id, item }) => {
+        {files.slice(0, 2).map(({ id, item }) => {
           return <FileCard name={item.caption} url={item.fileUrl}/>;
         })}
       </div>
